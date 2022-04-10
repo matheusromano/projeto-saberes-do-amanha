@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+}
+
+.banner {
+    background-image: url(../images/pexels-rebecca-zaal-764681.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    height: 600px;
+    margin-left: 0px;
+    position: relative;
+    
+}
+
+.textobanner{
+    position: absolute;
+    margin-top: 170px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.matricula{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1200px;
+    border-radius: 20px;
+    border: none;
+    background: #CED119;
+    width: 350px;
+    height: 50px;
+    
+    border-color: #CED119;
+}
+
+.textomatricula{
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    position: relative;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.header{
+    display: flex;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    gap: 70px;
+    margin-top: 35px;
+    margin-right: 100px;
+}
+
+nav{
+    padding-left: 30px;
+    margin-top: 20px;
+    
+}
+
+li{
+    list-style-type: none;
+    white-space: nowrap;
+
+}
+
+.menu{ 
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    align-items: center;
+}
+
+.caixanav{
+    background: #176A85;
+    margin-left: 66vw;
+    width: 500px;
+    height: 100px;
+    padding-top: 5px;
+    padding-right: 23px;
+    position: relative;
+
+}
+
+.logobox{
+    position: absolute;
+    background:rgba(23, 106, 133, 0.5);
+    width: 1080px; 
+}
+
+.conteudo{
+    display: flex;
+}
+
+.boxtexto{
+    background: rgba(23, 106, 133, 0.5);
+    width: 900px;
+    height: 450px;
+    position: relative;
+}
+
+.texto{
+    position: absolute;
+    margin-top: 50px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.sobrenos{
+    width: 700px;
+    height: 450px;
+}
+
+.missao{
+    width: 700px;
+    height: 450px;
+}
+
+.conteudo2{
+    display: flex;
+}
+
+.boxtexto2{
+    background:#176A85;
+    width: 900px;
+    height: 450px;
+    position: relative;
+    margin-left: 700px;
+    margin-top: -5px;
+}
+
+.texto2{
+    position: absolute;
+    margin-top: 50px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.texto3{
+    position: absolute;
+    margin-top: 100px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.ultimotrecho{
+    background-image: url(../images/pexels-cdc-3992949.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    height: 350px;
+    margin-top: -4px;
+    margin-left: 0px;
+    position: relative;
+    z-index: -1;
+
+}
+
+.ultimotrecho::after{
+    content:'';
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background: rgba(243, 154, 50, 0.3);
+        z-index: -1;
+}
+
+.formulario{
+    position: absolute;
+    background: #fff;
+    width: 300px;
+    height: 300px;
+
+    margin-left: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.fc{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.departamento{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(196, 196, 196, 0.5);
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.nome{
+    position: absolute;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(196, 196, 196, 0.5);
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.email{
+    position: absolute;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(196, 196, 196, 0.5);
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.textarea{
+    position: absolute;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(196, 196, 196, 0.5);
+    height: 60px;
+    border-radius: 15px;
+    margin-top: 120px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.submit{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 190px;
+    margin-left: 200px;
+    background: #176A85;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+}
+
+.maps{
+    position: absolute;
+    width: 650px;
+    height: 320px;
+    margin-left: 900px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.footer{
+    margin-top: -16px;
+    width: 100%;
+    background:#176A85;
+    height: 50px;
+}
+
+.pfooter {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+
