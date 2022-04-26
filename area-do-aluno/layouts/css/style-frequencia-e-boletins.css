@@ -1,12 +1,12 @@
 *,*:after, *:before{
     padding: 0;
     margin: 0;
-    border: 0; 
+    border: 0;  
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; 
 } 
- 
+  
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -115,24 +115,68 @@ a:hover{
     text-align: center;
 }
 
+
+
 .img__background {
     position: relative;
-    background: url('../../img/board.jpg');
+    background: url('../../img/childrem-frequencia-e-boletins.jpg');
     height: 100vh;
     background-size: 100% 100%;
 }
 
-.calendar {
-    position: relative;
-    top: 30px;
-    margin-left: 315px;
-    width: 800px;
-    height: 553px; 
-    background-color: rgb(202, 242, 141);
+.box-buscar {
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+    width: 250px;
+    height: 51px;
+    position: absolute;
+    top: 105px;
+    margin-left: 450px;
+  
+
 }
+
+.btn-buscar {
+    background-color: rgba(20, 198, 238, 0.5);
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+    
+}
+
 
 footer{
     text-align: center;
     padding: 10px;
     font-size: 15px;
+    margin-top: 0;
 }
+
+
+table{
+    position: absolute;
+    top: 160px;
+    margin-left: 170px;
+    width: 800px;
+    border-radius: 20px;
+    border-collapse: collapse;
+    background-color: rgba(130, 209, 227, 0.5);
+    font-size: 30px;
+    text-align: center;
+}
+
+tr:hover {background-color: rgb(182, 218, 219);}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+td{
+    padding: 8px;
+    border-radius: 20px;
+}
+
+
+

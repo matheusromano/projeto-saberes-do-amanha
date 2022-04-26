@@ -4,7 +4,7 @@ function atualizaConteudo(titulo, conteudo, linkMaterial) {
     document.getElementById("conteudo-caixa").textContent = conteudo; 
     document.getElementById("link-material").href = linkMaterial;
 }
- 
+  
 
 // ------------------Disciplinas Atuais------------------------ //
 function setAlgebraConteudo(){
