@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-fale-com-o-professor.css">
+    <meta name="author" content="mbairo">
+    <title>Comunicados</title>
+</head>  
+
+<body>  
+    <div class="container">
+           <header>
+               <div class="header">
+                       <div class="header__logo">
+                           <a href="index.html"><img class="header__logo" src="../../img/logo.png" alt="Logo do site"></a>
+                       </div>
+                       <h1 class="header__titulo">Área do Aluno</h1>
+               </div>
+                   <div class="menu__header">
+                       <nav class="nav">
+                           <ul class="nav__list">
+                               <li><a href="agenda.html" class="nav__link">Agenda</a></li>
+                               <li><a href="disciplinas.html" class="nav__link">Disciplinas</a></li>
+                               <li><a href="frequencia-e-boletins.html" class="nav__link">Frequência e Boletins</a></li>
+                               <li><a href="comunicados.html" class="nav__link">Comunicados</a></li>
+                               <li><a href="fale-com-o-professor.html" class="nav__link">Fale com o Professor</a></li>
+                           </ul>
+                       </nav> 
+                   </div>
+                   <div class="titulo">
+                    <p>Fale com o seu Professor</p>
+                </div>
+           </header> 
+           <!-- Fim do Header e Abas -->
+
+           <div class="background">
+
+                <div class="box-msg"> 
+
+                    <form name="form">
+                        <label for="matriculaLabel">Matricula</label>
+                        <input type="text" id="matricula" placeholder="Ex: 1020" required>
+                        <button class="btn-verificar" onclick="setMatriculaConteudo">Verificar</button><br><br>
+
+                        <label for="nomeLabel">Nome</label>
+                        <input type="text" id="nome" placeholder="Ex: Marcos Bairo"><br><br>
+
+                        <label for="msgLabel">Mensagem</label>
+                        <input type="text" id="msg"  placeholder="Digite sua mensagem aqui" ><br><br>
+
+                        <button id="btn-enviar" onclick="setFormularioConteudo()">Enviar</button>
+                    </form>
+                </div>
+
+            </div><br><br>
+     </div>
+     <footer>2022 - Curitiba-PR</footer> 
+</body>
+<script src="../js/fale-com-o-professor.js"></script>
+</html>
+

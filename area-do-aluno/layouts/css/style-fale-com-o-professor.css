@@ -14,6 +14,7 @@ body {
 .container { 
     max-width: 1128px;  
     margin: 0 auto;
+    background-color: rgb(238, 238, 45);
 }
 
 img {
@@ -76,9 +77,7 @@ ul{
 }
 .nav__link:checked {
     background-color: red;
-
 }
-
 
 a {
     text-decoration: none;
@@ -89,11 +88,20 @@ a:hover{
     color: black;
 }
 
-.img__background {
-    position: relative;
-    background: url('../../img/childrem-frequencia-e-boletins.jpg');
-    height: 100vh;
-    background-size: 100% 100%;
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+
+}
+/*Até aqui é utilizado em todas as abas */
+
+.titulo{
+    background-color:  rgb(16, 119, 137);
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
 }
 
 .box-buscar {
@@ -112,36 +120,51 @@ a:hover{
     width: 60px;
     height: 50px;
     border-radius: 5px;
-    
 }
 
-table{
-    position: absolute;
-    top: 160px;
-    margin-left: 170px;
-    width: 800px;
+.box-msg{
+    background-color: whitesmoke;
     border-radius: 20px;
-    border-collapse: collapse;
-    background-color: rgba(130, 209, 227, 0.5);
-    font-size: 30px;
-    text-align: center;
+    width: 700px;
+    height: 500px;
+    margin-left: 210px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+
+}
+#nome{
+    background-color: rgb(224, 219, 219);
+    border-radius: 5px;
+    height: 30px;
+    width: 650px;
+    align-content: center;
 }
 
-tr:hover {background-color: rgb(182, 218, 219);}
-
-th {
-    padding-top: 12px;
-    padding-bottom: 12px;
+#matricula{
+    background-color: rgb(224, 219, 219);
+    border-radius: 5px;
+    height: 30px;
+    width: 650px;
 }
 
-td{
-    padding: 8px;
-    border-radius: 20px;
+#msg{
+    background-color: rgb(224, 219, 219);
+    border-radius: 5px;
+    height: 120px;
+    width: 650px;
 }
 
-footer{
-    text-align: center;
-    padding: 10px;
-    font-size: 15px;
-    margin-top: 0;
+#btn-enviar{
+    background-color:  rgb(16, 119, 137);
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
 }
