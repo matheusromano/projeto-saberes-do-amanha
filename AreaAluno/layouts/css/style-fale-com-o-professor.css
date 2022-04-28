@@ -1,0 +1,170 @@
+*,*:after, *:before{
+    padding: 0;
+    margin: 0;
+    border: 0;  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+} 
+  
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container { 
+    max-width: 1128px;  
+    margin: 0 auto;
+    background-color: rgb(238, 238, 45);
+}
+
+img {
+    max-width: 100%;
+}
+ 
+.header {
+    background-color: rgb(16, 119, 137);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: auto;
+    height: 150px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    margin-left:10px;
+    width: 130px;
+}
+
+.header__titulo {
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul{
+    margin: 0px;
+    height: 100px;
+}
+
+.menu__header{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(47, 136, 151);
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.nav__link {
+    padding: 20px 10px;
+    font-size: 30px;
+    background-color: none;
+    border: 2px solid rgb(230, 219, 219);
+}
+.nav__link:checked {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 219, 219);
+}
+
+a:hover{
+    color: black;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+
+}
+/*Até aqui é utilizado em todas as abas */
+
+.titulo{
+    background-color:  rgb(16, 119, 137);
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box-buscar {
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+    width: 250px;
+    height: 51px;
+    position: absolute;
+    top: 105px;
+    margin-left: 450px;
+}
+
+.btn-buscar {
+    background-color: rgba(20, 198, 238, 0.5);
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.box-msg{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+    margin-left: 210px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+
+}
+#nome{
+    background-color: rgb(224, 219, 219);
+    border-radius: 5px;
+    height: 30px;
+    width: 650px;
+    align-content: center;
+}
+
+#matricula{
+    background-color: rgb(224, 219, 219);
+    border-radius: 5px;
+    height: 30px;
+    width: 650px;
+}
+
+#msg{
+    background-color: rgb(224, 219, 219);
+    border-radius: 5px;
+    height: 120px;
+    width: 650px;
+}
+
+#btn-enviar{
+    background-color:  rgb(16, 119, 137);
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+}
