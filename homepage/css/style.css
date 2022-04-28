@@ -93,9 +93,9 @@ li{
 
 .caixanav{
     background: #176A85;
-    margin-left: 66vw;
-    width: 500px;
-    height: 100px;
+    margin-left: 50vw;
+    width: 830px;
+    height: 105px;
     padding-top: 5px;
     padding-right: 23px;
     position: relative;
@@ -105,7 +105,7 @@ li{
 .logobox{
     position: absolute;
     background:rgba(23, 106, 133, 0.5);
-    width: 1080px; 
+    width: 1300px; 
 }
 
 .conteudo{
